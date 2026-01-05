@@ -11,6 +11,11 @@ int sum(int a, int b) {
     return a + b;
 }
 
+//multiplication of 2 numbers
+int multi(int a, int b) {
+    return a * b;
+}
+
 //Sum of 2 float - Function Overloading
 float sum(float x, float y) {
     return x + y;
@@ -74,6 +79,7 @@ void allPrimes(int n) {
 int main() {
     sayHello();
     cout << sum(1, 2) << endl;
+    cout << multi(3, 4) << endl;
     cout << sum(1.0f, 2.0f) << endl;
     cout << prod(1, 2) << endl;
     evenOrOdd(25);
